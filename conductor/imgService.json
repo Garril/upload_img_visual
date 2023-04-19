@@ -1,0 +1,17 @@
+{
+  "name": "imgService",
+  "inputKeys": [
+    "name",
+    "type"
+  ],
+  "outputKeys": [
+    "responseData"
+  ],
+  "retryCount": 3,
+  "retryLogic": "FIXED",
+  "retryDelaySeconds": 10,
+  "timeoutSeconds": 300,
+  "timeoutPolicy": "TIME_OUT_WF",
+  "responseTimeoutSeconds": 180,
+  "ownerEmail": "CoderGarril@outlook.com"  
+}
